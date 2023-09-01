@@ -88,7 +88,7 @@ x =txt.count('apple')
 print(x)
 
 # Encode
-txt = "My name is Sumån Shrestha."
+txt = "My name is John Doe."
 x = txt.encode()
 print(x)
 
@@ -100,3 +100,30 @@ print(x)
 txt = "Hello"
 x = txt.expandtabs(5)
 print(x)
+
+# Find Method
+text = "This is a basic python practice"
+a = text.find("basic")
+print(a)
+
+# Format methos
+text = "For only {price:.2f} euro"
+print(text.format(price = 49))
+
+name = "My name is {} {}"
+print(name.format("John", "Doe"))
+
+# Join Method
+names = ("John", "Doe")
+name = "-".join(names)
+print(name)
+
+# String Concatenation
+firstname = "John"
+lastname = "Doe"
+fullname = firstname + " " + lastname
+print(fullname)
+
+# Escape Characters
+txt = "I love \"Python\" Programming"
+print(txt);
